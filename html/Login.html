@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head style="height: 100%;">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión - PracticantesCANACO.com.mx</title>
+
+    
+    
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only" /><script>!function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["\/lib\/bootstrap\/dist\/css\/bootstrap.min.css"], "rel=\u0022stylesheet\u0022 ");</script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+</head>
+
+<body class="backLogin">
+    <div style="display: flex; justify-content: flex-end; padding-top: 20px; padding-right: 20px;">
+
+        <ul class="nav nav-pills">
+                <li><a class="text-nowrap nav-link" style="border-radius: 2rem;" href=/>HOME</a></li>
+                <li><a class="text-nowrap nav-link" style="border-radius: 2rem;" href=/html/contact.html>CONTACTO</a></li>
+                <li class="active hidden-xs hidden-sm"><a class="text-nowrap nav-link" style="border-radius: 2rem;" href="#" >INICIAR SESIÓN</a></li>
+        </ul>
+    </div>
+    <div class="wrap content-login">
+        <div class="caja-login">
+            <form method="post">
+                <div class="campos">
+                    
+                    <div style="text-align: center;">
+                        <img src="/images/LOGIN-user.png" alt=""
+                            style="width: 30%; max-width: 500px; height: auto; filter: brightness(0) invert(1); padding-bottom: 5%;">
+                    </div>
+
+                    <div class="crow">
+                        <input id="Email" name="Email" type="text" placeholder="Correo Electrónico" style="width: 100%; text-align: center; padding: 15px 0; font-size: 1.8rem; border-radius: 35px;"/>
+                    </div>
+                    
+                    <div style="text-align: center;">
+                        <img src="/images/LOGIN-asteriscos.png" alt=""
+                            style="width: 40%; max-width: 500px; height: auto; filter: brightness(0) invert(1); padding-bottom: 5%; padding-top: 5%;">
+                    </div>
+                    <div class="crow" >
+                        <input id="Password" name="Password" type="password" placeholder="Contraseña" style="width: 100%; text-align: center; padding: 15px 0; font-size: 1.8rem; border-radius: 35px;" />
+                    </div>
+                    
+                    <div class="ingresa">
+                        <button class="btn" type="submit" style="background-color: #005cc1; color: rgb(253, 253, 253); border-radius: 2rem; width: 100%; padding: 5px 0; font-size: 16px; font-size: 2rem;">INGRESAR</button>
+                    </div>
+                    <div class="olvido">
+                        <a href="/html/ForgotPassword.html" style="font-size: 2rem;">¿Olvidó su Contraseña?</a>
+                    </div>
+                </div>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KsoXU76bIRJhfGewNRSTrjnHQ8uQKtbZ5FwuOUTqQnVk-nS23nhINpbou6z5-ULUMhCcJ3Xvho0KovLDpXCeD-LauNEEOwW4NG1Ox5y0lgUXI18k5UVlWj3-BmNN3Wx0UpA0twOL3dgj4eNEyNOZEc" />
+            </form>
+        </div>
+    </div>
+    
+
+
+    <div class="footer">
+        <p><span class="hidden visible-xs-block visible-sm-block">© PracticantesCANACO.com.mx 2025</span><span class="hidden visible-lg-block visible-md-block">© PracticantesCANACO.com.mx 2025 | Administración de Becas, Beneficios y Apoyos a Estudiantes.</span></p>
+    </div>
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js" crossorigin="anonymous" integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+        </script>
+<script>(window.jQuery && window.jQuery.validator||document.write("\u003Cscript src=\u0022\/lib\/jquery-validation\/dist\/jquery.validate.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-rZfj\/ogBloos6wzLGpPkkOr\/gpkBNLZ6b6yLy4o\u002Bok\u002Bt\/SAKlL5mvXLr0OXNi1Hp\u0022\u003E\u003C\/script\u003E"));</script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js" crossorigin="anonymous" integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+        </script>
+<script>(window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive||document.write("\u003Cscript src=\u0022\/lib\/jquery-validation-unobtrusive\/jquery.validate.unobtrusive.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv\/Av18DXE43N\/1rvHyOG4izKst0f2iSLdds\u0022\u003E\u003C\/script\u003E"));</script>
+    
+</body>
+</html>
