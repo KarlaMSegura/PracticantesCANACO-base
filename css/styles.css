@@ -1,0 +1,283 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  font-size: 14px;
+}
+.backIndex {
+  background-image: url("../images/HOME-01.jpg");
+  background-color: white;
+}
+.backContact {
+  background-image: url("../images/CONTACTO_back.png");
+  background-color: white;
+}
+.backLogin {
+  background-image: url("../images/LOGIN-back.png");
+  background-color: white;
+}
+.backForgotPassword {
+
+  background-image: url("../images/Back-01.png");
+  background-color: white;
+}
+
+/*BOTON HOME O DE LA PANTALLA ACTUAL*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #2ca5ff;
+  border-color: #787878;
+  opacity: 1;
+  font-weight: 600;
+  border-radius: 2rem;
+}
+
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  background-color: #2ca5ff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 1em 0;
+  background-color: transparent;
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  line-height: 0px;
+  background-color: #ffffff7e;
+}
+
+/*OTROS BTN*/
+.nav-link {
+  color: white;
+  background-color: #2ca5ff;
+  opacity: 0.8;
+  text-decoration: none;
+  width: 148px;
+  text-align: center;
+}
+
+
+
+.nav-pills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nav-pills > li {
+  float: none;
+}
+
+
+.content {
+  height: 100%;
+}
+
+.content-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  align-items: center;
+}
+
+.caja-login {
+  border-radius: 2rem;
+  background-color: #2ca4ff;
+  width: 100%; 
+  max-width: 400px; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.caja { /*CAJA DEL FORMS*/
+  border-radius: 2rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #2ca4ff;
+  display: inline-block;
+}
+
+.caja01 { 
+  border-radius: 2rem;
+  position: relative;
+  background-color: #2ca4ff;
+  display: inline-block;
+max-width: 400px;
+  width: 100%;
+  max-width: 400px;
+  width: 100%;
+}
+
+.boton-separado {
+  background-color: #005cc1;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding: 5px 0;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 30px; /* Espacio entre el contenedor y el botón */
+  display: block;
+}
+
+.etiqueta {
+  position: absolute;
+  top: 49%;
+  transform: translateY(-50%);
+  background-color: rgba(100, 100, 100, 0.6);
+  display: inline-block;
+  left: 46%;
+}
+
+.titulo {
+  background-color: #58585a;
+  padding: 1em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.campos{
+  margin: 1rem;
+}
+
+.crow {
+  margin-bottom: 0.8em;
+  display: block;
+}
+
+.tgris {
+  width: 100%;
+  text-align: center;
+  font-size: 0.7em;
+  color: #5a5858;
+  line-height: 3px;
+}
+
+.ingresa {
+  width: 100%;
+  text-align: center;
+}
+
+.olvido {
+  padding-top: 1em;
+  color: #2ca5ff;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+}
+
+.olvido a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+
+input[type="text"] {
+  padding: 0.6em;
+  border: 0px;
+  border-radius: 12px;
+  margin-left: 5px;
+}
+
+input[type="password"] {
+  padding: 0.6em;
+  border: 0px;
+  border-radius: 12px;
+  margin-left: 5px;
+}
+
+.contenedor-flex {
+  display: flex;
+  align-items: center;       
+  justify-content: center;  
+  height: 100%;              
+  gap: 5rem;                 
+  flex-wrap: wrap;           
+  text-align: center;
+  width: 100%;
+}
+
+.caja-img {
+  background-color: transparent;
+  width: 35%;
+  min-width: 250px;
+}
+
+.caja-formulario {
+  width: 35%;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.caja-formulario-contenedor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen-superior {
+  max-width: 45rem;
+  height: auto;
+  margin-bottom: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor-formulario01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+  gap: 20px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .wrap {
+    text-align: center;
+  }
+
+  .wrap img {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  
+}
+
+
